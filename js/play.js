@@ -24,7 +24,12 @@ function html5playerRun(conf) {
     var vh = fswinW / 16 * 11;
     myVideo.addEventListener("x5videoenterfullscreen", function () {
         myVideo.style["object-position"] = "0px 0px";
-
+        $("#videoPlayer").css({
+            width: "100%",
+            position: 'relative',
+            top: 0,
+            height: vh
+        });
         $("#playVideo").css({
             width: "100%",
             height: fswinH
