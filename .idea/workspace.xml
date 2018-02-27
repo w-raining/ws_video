@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b926639-2e59-40e4-8118-2fac086ce9b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/html5Play.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/play.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/wzan/html5Play.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/wzan/play.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/play.js" afterPath="$PROJECT_DIR$/js/play.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +14,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67397577">
+    <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
         <leaf>
           <file leaf-file-name="play.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/play.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-618">
-                  <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+                <state relative-caret-position="594">
+                  <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -35,8 +30,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="491">
-                  <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+                <state relative-caret-position="194">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -49,8 +44,8 @@
           <file leaf-file-name="play.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/wzan/play.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+                <state relative-caret-position="108">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#54#0" expanded="false" />
                     <element signature="e#3226#4380#0" expanded="false" />
@@ -90,12 +85,13 @@
     <findStrings>
       <find>_this</find>
       <find>wsPlayer</find>
-      <find>hlsPlayerLoad</find>
       <find>Existcontainer</find>
       <find>html5playerRun</find>
       <find>aodianPlayer</find>
       <find>html5FunInterval</find>
       <find>html5FunName</find>
+      <find>hlsPlayerLoad</find>
+      <find>wsplayer_uid_base</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,12 +205,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519707633478</updated>
-      <workItem from="1519707634723" duration="5376000" />
+      <workItem from="1519707634723" duration="7489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5376000" />
+    <option name="totallyTimeSpent" value="7489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -277,14 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/html5Play.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -299,8 +287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/wzan/play.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#54#0" expanded="false" />
             <element signature="e#3226#4380#0" expanded="false" />
@@ -308,10 +296,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/play.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="594">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding />
         </state>
       </provider>

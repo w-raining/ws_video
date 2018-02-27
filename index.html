@@ -6,16 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>播放器封装</title>
+    <script type="text/javascript" src="./js/jquery-1.8.3.min.js"> </script>
     <script src="./js/play.js"></script>
 </head>
 <body>
-
+    <div id="videoPlayer"></div>
 </body>
 <script type="text/javascript">
 
     var w = "100%";//视频宽度
     var h = "100%";//视频高度
-    var url = 'http://oss-vod.vzan.cc/live/131598502532744549.1515588258.m3u8?time=636553350896896084';//视频地址
+    var url = 'http://1011.hlsplay.aodianyun.com/demo/game.m3u8';//视频地址
     var objectPlayer = new wsPlayer({
         container: 'videoPlayer',//播放器容器ID，必要参数
         hlsUrl: url,//控制台开通的APP hls地址，必要参数
@@ -24,7 +25,7 @@
         height: h,//播放器高度，可用数字、百分比等
         autostart: true,//是否自动播放，默认为false
         //controlbardisplay: 'disable',//是否显示控制栏，值为：disable、enable默认为disable。
-        adveDeAddr: 'https://i.vzan.cc/cx/image/liveImage/jpeg/2018/1/8/095717747dff9be84e456f9efed2c26f5d737a.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_640,h_360/format,jpeg/quality,q_70',//封面图片链接
+        adveDeAddr: '',//封面图片链接
         adveWidth: w,//封面图宽度
         adveHeight: h,//封面图高度
         adveReAddr: 'https://i.vzan.cc/cx/image/liveImage/jpeg/2018/1/8/095717747dff9be84e456f9efed2c26f5d737a.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_640,h_360/format,jpeg/quality,q_70' //封面图点击链接
