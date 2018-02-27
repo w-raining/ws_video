@@ -11,33 +11,36 @@ function html5playerRun(conf) {
     this.adveDeAddr = conf.adveDeAddr ? conf.adveDeAddr : '';//播放前显示图片地址
     var _this = this;
     var html = "";
-    html += "<video x5-video-player-type='h5' x5-video-player-fullscreen='true' webkit-inline='true' x-webkit-airplay='allow' autoplay='autoplay' webkit-playsinline='' playsinline='' x5-video-position='top' preload='auto' id='playVideo' type='application/x-mpegURL'" + "  src=" + this.hlsUrl  + "  " + "poster=" + this.adveDeAddr +">";
+    html += "<video x5-video-player-type='h5' x5-video-player-fullscreen='true' webkit-inline='true' x-webkit-airplay='allow' autoplay='autoplay' webkit-playsinline='' playsinline='' x5-video-position='top' preload='auto' id='playVideo' type='application/x-mpegURL'" + "  src=" + this.hlsUrl + "  " + "poster=" + this.adveDeAddr + ">";
     html += "</video>";
     document.getElementById(conf.container).innerHTML = html;
 
-    // var myVideo = document.getElementById('#playVideo');
-    // console.log(myVideo)
-    // var fswinH = screen.height;
-    // var fswinW = screen.width;
-    // var vh = fswinW / 16 * 11;
-    // myVideo.addEventListener("x5videoenterfullscreen", function () {
-    //     myVideo.style["object-position"] = "0px 0px";
-    //
-    //     $("#playVideo").css({
-    //         width: "100%",
-    //         height: fswinH
-    //     });
-    //     var chatHeight = screen.height - vh - $('#tabs-h').height() - $('.chat-send-container').height() - 50;
-    //     $("body").addClass("wxfs");
-    // });
-    // myVideo.addEventListener("x5videoexitfullscreen", function () {
-    //     $("body").removeClass("tbsfs wxfs");
-    // });
+
+
+    var myVideo = document.getElementById('playVideo');
+    console.log(myVideo);
+    var fswinH = screen.height;
+    var fswinW = screen.width;
+    var vh = fswinW / 16 * 11;
+    myVideo.addEventListener("x5videoenterfullscreen", function () {
+        myVideo.style["object-position"] = "0px 0px";
+
+        $("#playVideo").css({
+            width: "100%",
+            height: fswinH
+        });
+        var chatHeight = screen.height - vh - $('#tabs-h').height() - $('.chat-send-container').height() - 50;
+        $("body").addClass("wxfs");
+    });
+    myVideo.addEventListener("x5videoexitfullscreen", function () {
+        $("body").removeClass("tbsfs wxfs");
+    });
+
 }
 
 var hlsPlayerLoad = false;
 function wsPlayer(conf) {
-    var html5FunName,html5FunInterval;
+    var html5FunName, html5FunInterval;
     var conf = conf;
     if (conf.hlsUrl && conf.hlsUrl != '') {
         var playername = 'html5player';
