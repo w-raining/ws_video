@@ -18,7 +18,6 @@ function html5playerRun(conf) {
 
 
     var myVideo = document.getElementById('playVideo');
-    console.log(myVideo);
     var fswinH = screen.height;
     var fswinW = screen.width;
     var vh = fswinW / 16 * 11;
